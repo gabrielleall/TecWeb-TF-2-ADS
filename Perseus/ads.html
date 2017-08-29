@@ -1,99 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<title>Analise e Desenvolvimento de Sistemas | Faculdade Perseus</title>
-	</head>
-	<body>
-		<header>
-			<h1>Faculdade Perseus</h1>
-			<p>Pesquisar</p>
+<head>
+	<meta name="Victor Codonho" content="1700715">
+	<meta charset="utf-8">
+	<title>Analise e Desenvolvimento de Sistemas | Faculdade Perseus</title>
+</head>
+<body>
+	<!-- Header pradrão -->
+	<header>
+		<div id="topo">
+			<div id="logo">
+				<h1>Faculdade Perseus</h1>
+			</div>
+			<div id="pesquisa">
+				<p>Pesquisar...</p>
+			</div>
 			<nav id="menu">
-				<ul id="menuPrincipal">
-					<li><a href="index.html">Home Page</a></li>
-					<li><a href="listaCursos.html">Lista de Cursos</a></li>
-					<li><a href="disciplinas.html">Disciplinas</a></li>
-					<li><a href="noticias.html">Notícias</a></li>
+				<ul id="menu principal">
+					<li><a href="#">Home Page</a></li>
+					<li><a href="#">Lista de Cursos</a></li>
+					<li><a href="#">Disciplinas</a></li>
+					<li><a href="#">Notícias</a></li>
 				</ul>
 			</nav>
-		</header>
-		<section>
-			<div id="conteudo1">
-				<h2>Graduação em Analise e Desenvolvimento de Sistemas</h2>
-				<img src="http://i.imgur.com/fVqaudZ.jpg">
-			</div>
-			<article id="sobreCurso">
-				<h3>Sobre o Curso</h3>
-				<p>O curso forma profissionais conhecidos como Analista de Sistemas ou
-				Desenvolvedor de Sistemas.  São esses profissionais que criam os
-				sistemas com os quais você já teve contato: sistemas de comércio
-				eletrônico, sistemas de redes sociais, web sites, apenas para citar alguns.</p>
+		</div>
+	</header>
+	<!-- Final header pradrão -->
+
+	<section id="conteudo">
+		<!-- Inicio do conteudo -->
+		<div id="conteudo1">
+			<h2>Graduação em Analise e Desenvolvimento de Sistemas</h2>
+			<img src="http://i.imgur.com/fVqaudZ.jpg">
+		</div>
+		<!-- Final do conteudo -->
+
+		<!-- Sobre o curso -->
+		<div id="sobre curso">
+			<h3>Sobre o Curso</h3>
+			<p>O curso forma profissionais conhecidos como Analista de Sistemas ou
+			Desenvolvedor de Sistemas.  São esses profissionais que criam os
+			sistemas com os quais você já teve contato: sistemas de comércio
+			eletrônico, sistemas de redes sociais, web sites, apenas para citar alguns.</p>
+ 
+			<p>Que tal fazer parte desse grupo seleto de profissionais? O melhor
+			caminho para isso é aprender de forma gradativa, resolvendo problemas
+			do simples ao complexo, participando ativamente de projetos reais com
+			clientes reais, além de ter como professores os melhores profissionais de
+			mercado.</p>
+ 
+			<p>Você também aprenderá a trabalhar em equipe, analisando e
+			desenvolvendo sistemas para internet, tablets, celulares e Internet das
+			Coisas (IoT), utilizando ambientes DevOps, linguagens e tecnologias
+			de alta-produtividade e de melhor custo-benefício.</p>
+			<p><strong>Periodo:</strong><br/>
+			Matutino / Noturno</p>
+			<p><strong>Duração:</strong><br/>
+			4 Semestres</p>
+		</div>
+		<!-- Final sobre curso -->
 	
-				<p>Que tal fazer parte desse grupo seleto de profissionais? O melhor
-				caminho para isso é aprender de forma gradativa, resolvendo problemas
-				do simples ao complexo, participando ativamente de projetos reais com
-				clientes reais, além de ter como professores os melhores profissionais de
-				mercado.</p>
-	
-				<p>Você também aprenderá a trabalhar em equipe, analisando e
-				desenvolvendo sistemas para internet, tablets, celulares e Internet das
-				Coisas (IoT), utilizando ambientes DevOps, linguagens e tecnologias
-				de alta-produtividade e de melhor custo-benefício.</p>
-				<p><strong>Periodo:<br></strong>
-				Matutino / Noturno</p>
-				<p><strong>Duração:<br></strong>
-				4 Semestres</p>
-			</article>
+		<!-- Mais informações -->
+		<div id="mais informacoes">
+			<h2>Mais Informações</h2>
 			<form>
-				<h2>Mais Informações</h2>
-				<p><strong>Nome*</strong><br/>
-				<input type="text" name="nome"/><br/>
-				<p><strong>E-mail*</strong><br/>
-				<input type="email" name="email"/><br/>
-				<p><strong>Telefone*</strong><br/>
-				<input type="tel" name="nome"/><br/>
+				<strong>Nome:*</strong><br/>
+				<input type="text" name="nome"><br/>
+				<strong>E-mail:*</strong><br/>
+				<input type="email" name="email"><br/>
+				<strong>Telefone:*</strong><br/>
+				<input type="tel" name="telefone"><br/>
+				<input type="submit" name="enviar"><br/>
 			</form>
-			<div id="grande">
-				<h3>Grade</h3>
-				<p><strong>1º Semestre<br></strong>
-				Comunicação e Expressão<br>
-				Fundamentos de Banco de Dados<br>
-				Introdução a Internet das Coisas<br>
-				Linguagem de Programação I<br>
-				Lógica de Programação<br>
-				Matenática Aplicada<br></p>
+		</div>
+		<!-- Final mais informações -->
+	
+		<!-- Grade -->
+		<div id="grande">
+			<h3>Grade</h3>
+			<p><strong>1º Semestre</strong><br/>
+			Comunicação e Expressão<br/>
+			Fundamentos de Banco de Dados<br/>
+			Introdução a Internet das Coisas<br/>
+			Linguagem de Programação I<br/>
+			Lógica de Programação<br/>
+			Matenática Aplicada</p>
 
-				<p><strong>2º Semestre<br></strong>
-				Ambiente de Desenvolvimento e Operação<br>
-				Engenharia de Software<br>
-				Gestão de Projetos<br>
-				Língua Brasileira de Sinais - Libras(Optativa)<br>
-				Linguagem de Programação II<br>
-				Linguagem SQL<br>
-				Socidade e Sustentabilidade(Optativa)<br>
-				Tecnologia Web<br></p>
+			<p><strong>2º Semestre</strong><br/>
+			Ambiente de Desenvolvimento e Operação<br/>
+			Engenharia de Software<br/>
+			Gestão de Projetos<br/>
+			Língua Brasileira de Sinais - Libras(Optativa)<br/>
+			Linguagem de Programação II<br/>
+			Linguagem SQL<br/>
+			Socidade e Sustentabilidade(Optativa)<br/>
+			Tecnologia Web</p>
 
-				<p><strong>3º Semestre<br></strong>
-				Análise e Modelagem de Sistemas<br>
-				Desenvolvimento de Aplicações Distribuídas<br>
-				Estrutura de Dados<br>
-				Interface Homem-Computador<br>
-				Modelagem de Processos de Negócio<br>
-				Oficina de Projeto de Empresa 1 - OPE1<br></p>
+			<p><strong>3º Semestre</strong><br/>
+			Análise e Modelagem de Sistemas<br/>
+			Desenvolvimento de Aplicações Distribuídas<br/>
+			Estrutura de Dados<br/>
+			Interface Homem-Computador<br/>
+			Modelagem de Processos de Negócio<br/>
+			Oficina de Projeto de Empresa 1 - OPE1</p>
 
-				<p><strong>4º Semestre<br></strong>
-				Arquitetura e Projeto de Sistemas<br>
-				Desenvolvimento para Dispositivos Móveis<br>
-				Desenvolvimento para Internet das Coisas - IoT<br>
-				Legislação e Ética<br>
-				Oficina de Projeto de Empresa 2 - OPE2<br>
-				Qualidade de Software<br></p>
-			</div>
-			<div id="seletivo">
-				<h2>Processo Seletivo</h2>
-				<p>Inscreva-se</p>
-			</div>
-		</section>
+			<p><strong>4º Semestre</strong><br/>
+			Arquitetura e Projeto de Sistemas<br/>
+			Desenvolvimento para Dispositivos Móveis<br/>
+			Desenvolvimento para Internet das Coisas - IoT<br/>
+			Legislação e Ética<br/>
+			Oficina de Projeto de Empresa 2 - OPE2<br/>
+			Qualidade de Software</p>
+		</div>
+		<!-- Final grade -->
+	
+		<!-- Processo seletivo -->
+		<div id="seletivo">
+			<h2>Processo Seletivo</h2>
+			<p>Inscreva-se</p>
+		</div>
+		<!-- Final processo seletivo -->
+	</section>
+	
+		<!-- Rodape padrão -->
 		<footer id="rodape">
 			<ul id="menu rede social">
 				<li><a href="#">Twitter</a></li>
@@ -104,6 +133,7 @@
 			</ul>
 			<p>© 2017 Faculdade Perseus. All rights reserved</p>
 		</footer>
+		<!-- Final rodape -->
 
-	</body>
-	</html>
+</body>
+</html>
