@@ -1,139 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta name="Victor Codonho" content="1700715">
-	<meta charset="utf-8">
-	<title>Analise e Desenvolvimento de Sistemas | Faculdade Perseus</title>
+    <meta charset="utf-8"/>
+    <title>Analise e Desenvolvimento de Sistemas | Faculdade Perseus</title>
+    <link rel="stylesheet" type="text/css" href="_css/detalheCurso.css" />
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
 </head>
 <body>
-	<!-- Header pradrão -->
-	<header>
-		<div id="topo">
-			<div id="logo">
-				<h1>Faculdade Perseus</h1>
-			</div>
-			<div id="pesquisa">
-				<p>Pesquisar...</p>
-			</div>
-			<nav id="menu">
-				<ul id="menu principal">
-					<li><a href="index.html">Home Page</a></li>
-					<li><a href="listaCursos.html">Lista de Cursos</a></li>
-					<li><a href="disciplinas.html">Disciplinas</a></li>
-					<li><a href="noticias.html">Notícias</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<!-- Final header pradrão -->
 
-	<section id="conteudo">
-		<!-- Inicio do conteudo -->
-		<div id="conteudo1">
-			<h2>Graduação em Analise e Desenvolvimento de Sistemas</h2>
-			<img src="http://i.imgur.com/fVqaudZ.jpg" alt="Analise e Desenvolvimento de Sistemas">
-		</div>
-		<!-- Final do conteudo -->
+    <!-- PADRÃO -->
+    <header>
+        <div class="logo">
+            <h1>Faculdade Perseus</h1>
+        </div>
+        <div class="pesquisa">
+            <input type="text" placeholder="Pesquisar..."/>
+            <button>Pesquisar</button>
+        </div>
+    </header>
 
-		<!-- Sobre o curso -->
-		<div id="sobre curso">
-			<h3>Sobre o Curso</h3>
-			<p>O curso forma profissionais conhecidos como Analista de Sistemas ou
-			Desenvolvedor de Sistemas.  São esses profissionais que criam os
-			sistemas com os quais você já teve contato: sistemas de comércio
-			eletrônico, sistemas de redes sociais, web sites, apenas para citar alguns.</p>
+    <section class="menuPrincipal">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="listaCursos.html">Cursos</a></li>
+                <li><a href="disciplinas.html">Disciplinas</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- FIM PADRÃO -->
+
+    <section class="conteudoInicial">
+        <h1>Graduação em Analise e Desenvolvimento de Sistemas</h1>
+        <img src="_imagens/detalheAds.jpg" alt="Graduação em ADS">
+    </section>
+
+    <section class="sobreInformacoes">
+        <div class="sobreConteudo">
+            <h2>Sobre</h2>
+            <p>O curso forma profissionais conhecidos como Analista de Sistemas ou
+            Desenvolvedor de Sistemas.  São esses profissionais que criam os
+            sistemas com os quais você já teve contato: sistemas de comércio
+            eletrônico, sistemas de redes sociais, web sites, apenas para citar alguns.</p>
+        
+            <p>Que tal fazer parte desse grupo seleto de profissionais? O melhor
+            caminho para isso é aprender de forma gradativa, resolvendo problemas
+            do simples ao complexo, participando ativamente de projetos reais com
+            clientes reais, além de ter como professores os melhores profissionais de
+            mercado.</p>
  
-			<p>Que tal fazer parte desse grupo seleto de profissionais? O melhor
-			caminho para isso é aprender de forma gradativa, resolvendo problemas
-			do simples ao complexo, participando ativamente de projetos reais com
-			clientes reais, além de ter como professores os melhores profissionais de
-			mercado.</p>
- 
-			<p>Você também aprenderá a trabalhar em equipe, analisando e
-			desenvolvendo sistemas para internet, tablets, celulares e Internet das
-			Coisas (IoT), utilizando ambientes DevOps, linguagens e tecnologias
-			de alta-produtividade e de melhor custo-benefício.</p>
-			<p><strong>Periodo:</strong><br/>
-			Matutino / Noturno</p>
-			<p><strong>Duração:</strong><br/>
-			4 Semestres</p>
-		</div>
-		<!-- Final sobre curso -->
-	
-		<!-- Mais informações -->
-		<div id="mais informacoes">
-			<h2>Mais Informações</h2>
-			<form>
-				<strong>Nome:*</strong><br/>
-				<input type="text" name="nome"><br/>
-				<strong>E-mail:*</strong><br/>
-				<input type="email" name="email"><br/>
-				<strong>Telefone:*</strong><br/>
-				<input type="tel" name="telefone"><br/>
-				<input type="submit" name="enviar"><br/>
-			</form>
-		</div>
-		<!-- Final mais informações -->
-	
-		<!-- Grade -->
-		<div id="grande">
-			<h3>Grade</h3>
-			<p><strong>1º Semestre</strong><br/>
-			Comunicação e Expressão<br/>
-			Fundamentos de Banco de Dados<br/>
-			Introdução a Internet das Coisas<br/>
-			Linguagem de Programação I<br/>
-			Lógica de Programação<br/>
-			Matenática Aplicada</p>
+            <p>Você também aprenderá a trabalhar em equipe, analisando e
+            desenvolvendo sistemas para internet, tablets, celulares e Internet das
+            Coisas (IoT), utilizando ambientes DevOps, linguagens e tecnologias
+            de alta-produtividade e de melhor custo-benefício.</p>
+        
+            <div class="periodo">
+                <img src="_imagens/relogioIcon.png" alt="Periodo icon">
+                <p>Periodo:<br/>
+                <strong>Noturno</strong></p>
+            </div>
+            <div class="duracao">
+                <img src="_imagens/calendarioIcon.png" alt="Duração icon">
+                <p>Duração:<br/>
+                <strong>4 Semestres</strong></p>
+            </div>
+        </div>
 
-			<p><strong>2º Semestre</strong><br/>
-			Ambiente de Desenvolvimento e Operação<br/>
-			Engenharia de Software<br/>
-			Gestão de Projetos<br/>
-			Língua Brasileira de Sinais - Libras(Optativa)<br/>
-			Linguagem de Programação II<br/>
-			Linguagem SQL<br/>
-			Socidade e Sustentabilidade(Optativa)<br/>
-			Tecnologia Web</p>
+        <div class="maisInformacoes">
+            <h2>Mais Informações</h2>
+            <form>
+                <p><strong>Nome*</strong></p>
+                <input type="text" name="Nome" placeholder="Digite seu nome..." />
+                <p><strong>E-mail*</strong></p>
+                <input type="email" name="E-mail" placeholder="Digite seu e-mail..." />
+                <p><strong>Telefone*</strong></p>
+                <input type="tel" name="Telefone" placeholder="(xx) xxxx-xxxx" /><br/>
+             <button>Enviar</button>
+            </form>
+        </div>
+    </section>
 
-			<p><strong>3º Semestre</strong><br/>
-			Análise e Modelagem de Sistemas<br/>
-			Desenvolvimento de Aplicações Distribuídas<br/>
-			Estrutura de Dados<br/>
-			Interface Homem-Computador<br/>
-			Modelagem de Processos de Negócio<br/>
-			Oficina de Projeto de Empresa 1 - OPE1</p>
+    <section class="grade">
+        <h2>Grade</h2>
+        <table>
+            <tr>
+                <th>1º Semestre</th>
+                <th>2º Semestre</th>
+                <th>3º Semestre</th>
+                <th>4º Semestre</th>
+            </tr>
+            <tr>
+                <td>Comunicação e Expressão</td>
+                <td>Ambiente de Desenvolvimento e Operação</td>
+                <td>Análise e Modelagem de Sistemas</td>
+                <td>Arquitetura e Projeto de Sistemas</td>
+            </tr>
+            <tr>
+                <td>Fundamentos de Banco de Dados</td>
+                <td>Engenharia de Software</td>
+                <td>Desenvolvimento de Aplicações Distribuídas</td>
+                <td>Desenvolvimento para Dispositivos Móveis</td>
+            </tr>
+            <tr>
+                <td>Introdução a Internet das Coisas</td>
+                <td>Gestão de Projetos</td>
+                <td>Estrutura de Dados</td>
+                <td>Qualidade de Software</td>
+            </tr>
+            <tr>
+                <td>Linguagem de Programação I</td>
+                <td>Língua Brasileira de Sinais - Libras(Optativa)</td>
+                <td>Interface Homem-Computador</td>
+                <td>Desenvolvimento para Internet das Coisas - IoT</td>
+            </tr>
+            <tr>
+                <td>Lógica de Programação</td>
+                <td>Linguagem de Programação II</td>
+                <td>Modelagem de Processos de Negócio</td>
+                <td>Legislação e Ética</td>
+            </tr>
+            <tr>
+                <td>Matemática Aplicada</td>
+                <td>Linguagem SQL</td>
+                <td>Oficina de Projeto de Empresa 1 - OPE1</td>
+                <td>Oficina de Projeto de Empresa 2 - OPE2</td>
+            </tr>
+            <tr>
+                <td>--</td>
+                <td>Socidade e Sustentabilidade(Optativa)</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>--</td>
+                <td>Tecnologia Web</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+        </table>
+    </section>
 
-			<p><strong>4º Semestre</strong><br/>
-			Arquitetura e Projeto de Sistemas<br/>
-			Desenvolvimento para Dispositivos Móveis<br/>
-			Desenvolvimento para Internet das Coisas - IoT<br/>
-			Legislação e Ética<br/>
-			Oficina de Projeto de Empresa 2 - OPE2<br/>
-			Qualidade de Software</p>
-		</div>
-		<!-- Final grade -->
-	
-		<!-- Processo seletivo -->
-		<div id="seletivo">
-			<h2>Processo Seletivo</h2>
-			<p>Inscreva-se</p>
-		</div>
-		<!-- Final processo seletivo -->
-	</section>
-	
-		<!-- Rodape padrão -->
-		<footer id="rodape">
-			<ul id="menu rede social">
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Google+</a></li>
-				<li><a href="#">Youtube</a></li>
-				<li><a href="#">LinkedIn</a></li>
-			</ul>
-			<p>© 2017 Faculdade Perseus. All rights reserved</p>
-		</footer>
-		<!-- Final rodape -->
+    <section class="processoSeletivo">
+        <h2>Processo Seletivo</h2>
+        <button>Inscreva-se</button>
+    </section>
+    
+    <!-- PADRÃO -->
+
+    <footer>
+        <section class="rodape">
+            <div class="redeSocial">
+                <ul>
+                    <li><a href="#"><img src="_imagens/twitterIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/facebookIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/googlePlusIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/youtubeIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/linkdlnIcon.jpg"></a></li>
+                </ul>
+            </div>
+            <div class="direitosAutorais">
+                <p>© 2017 Faculdade Perseus. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- FIM PADRÃO -->
 
 </body>
 </html>
