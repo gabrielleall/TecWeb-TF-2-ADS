@@ -1,133 +1,166 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta name="Victor Codonho" content="1700715">
-	<meta charset="utf-8">
-	<title>Banco de Dados | Faculdade Perseus</title>
+    <meta charset="utf-8"/>
+    <title>Banco de Dados | Faculdade Perseus</title>
+    <link rel="stylesheet" type="text/css" href="_css/detalheCurso.css" />
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
 </head>
 <body>
 
-	<!-- Header padrão -->
-	<header>
-		<div id="topo">
-			<div id="logo">
-				<h1>Faculdade Perseus</h1>
-			</div>
-			<div id="pesquisa">
-				<p>Pesquisar...</p>
-			</div>
-			<nav id="menu">
-				<ul id="menu principal">
-					<li><a href="index.html">Home Page</a></li>
-					<li><a href="listaCursos.html">Lista de Cursos</a></li>
-					<li><a href="disciplinas.html">Disciplinas</a></li>
-					<li><a href="noticias.html">Notícias</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<!-- Final header padrão -->
+    <!-- PADRÃO -->
+    <header>
+        <div class="logo">
+            <h1>Faculdade Perseus</h1>
+        </div>
+        <div class="pesquisa">
+            <input type="text" placeholder="Pesquisar..."/>
+            <button>Pesquisar</button>
+        </div>
+    </header>
 
-	<section id="conteudo">
-		<!-- Conteudo -->
-		<div id="conteudo1">
-			<h2>Graduação em Banco de Dados</h2>
-			<img src="http://i.imgur.com/QEarCxO.jpg" alt="Banco de Dados">
-		</div>
-		<!-- Final conteudo -->
+    <section class="menuPrincipal">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="listaCursos.html">Cursos</a></li>
+                <li><a href="disciplinas.html">Disciplinas</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+            </ul>
+        </nav>
+    </section>
 
-		<!-- Sobre o curso -->
-		<div id="sobre curso">
-			<h3>Sobre o Curso</h3>
-			<p>Com o curso de Banco de Dados você será um profissional versátil e com
-			habilidades para atuar com diversas plataformas e estruturas de
-			desenvolvimento e administração de sistemas de banco de dados.</p>
+    <!-- FIM PADRÃO -->
 
-			<p>Você terá todo repertório técnico e teórico, conhecendo a importância
-			da segurança de compartilhamento de dados nas empresas modernas,
-			dominando as melhores técnicas e ferramentas de criação e implementação,
-			além de impulsionar a capacidade de gerência de equipes.</p>
-			
-			<p><strong>Periodo:</strong><br/>
-			Noturno</p>
-			<p><strong>Duração:</strong><br/>
-			4 Semestres</p>
-		</div>
-		<!-- Final sobre o curso -->
+    <section class="conteudoInicial">
+        <h1>Graduação em Banco de Dados</h1>
+        <img src="_imagens/detalheBd.jpg" alt="Graduação em BD">
+    </section>
 
-		<!-- Mais informações -->
-		<div id="mais informacoes">
-			<h2>Mais Informações</h2>
-			<form>
-				<strong>Nome:*</strong><br/>
-				<input type="text" name="nome"><br/>
-				<strong>E-mail:*</strong><br/>
-				<input type="email" name="email"><br/>
-				<strong>Telefone:*</strong><br/>
-				<input type="tel" name="telefone"><br/>
-				<input type="submit" name="enviar"><br/>
-			</form>
-		</div>
-		<!-- Final mais informações -->
+    <section class="sobreInformacoes">
+        <div class="sobreConteudo">
+            <h2>Sobre</h2>
+            <p>Com o curso de Banco de Dados você será um profissional versátil e com
+            habilidades para atuar com diversas plataformas e estruturas de
+            desenvolvimento e administração de sistemas de banco de dados.</p>
+        
+            <p>Você terá todo repertório técnico e teórico, conhecendo a importância
+            da segurança de compartilhamento de dados nas empresas modernas,
+            dominando as melhores técnicas e ferramentas de criação e implementação,
+            além de impulsionar a capacidade de gerência de equipes.</p>
+ 
+        
+            <div class="periodo">
+                <img src="_imagens/relogioIcon.png" alt="Periodo icon">
+                <p>Periodo:<br/>
+                <strong>Noturno</strong></p>
+            </div>
+            <div class="duracao">
+                <img src="_imagens/calendarioIcon.png" alt="Duração icon">
+                <p>Duração:<br/>
+                <strong>4 Semestres</strong></p>
+            </div>
+        </div>
 
-		<!-- Grade -->
-		<div id="grande">
-			<h3>Grade</h3>
-			<p><strong>1º Semestre</strong><br/>
-			Comunicação e Expressão<br/>
-			Fundamentos de Banco de Dados<br/>
-			Introdução a Internet das Coisas<br/>
-			Linguagem de Programação I<br/>
-			Lógica de Programação<br/>
-			Matenática Aplicada</p>
+        <div class="maisInformacoes">
+            <h2>Mais Informações</h2>
+            <form>
+                <p><strong>Nome*</strong></p>
+                <input type="text" name="Nome" placeholder="Digite seu nome..." />
+                <p><strong>E-mail*</strong></p>
+                <input type="email" name="E-mail" placeholder="Digite seu e-mail..." />
+                <p><strong>Telefone*</strong></p>
+                <input type="tel" name="Telefone" placeholder="(xx) xxxx-xxxx" /><br/>
+             <button>Enviar</button>
+            </form>
+        </div>
+    </section>
 
-			<p><strong>2º Semestre</strong><br/>
-			Ambiente de Desenvolvimento e Operação<br/>
-			Engenharia de Software<br/>
-			Gestão de Projetos<br/>
-			Língua Brasileira de Sinais - Libras(Optativa)<br/>
-			Desenvolvimento de Sistemas<br/>
-			Linguagem SQL<br/>
-			Socidade e Sustentabilidade(Optativa)<br/>
-			Análise Exploratório de Dados</p>
+    <section class="grade">
+        <h2>Grade</h2>
+        <table>
+            <tr>
+                <th>1º Semestre</th>
+                <th>2º Semestre</th>
+                <th>3º Semestre</th>
+                <th>4º Semestre</th>
+            </tr>
+            <tr>
+                <td>Comunicação e Expressão</td>
+                <td>Ambiente de Desenvolvimento e Operação</td>
+                <td>Business Intelligence</td>
+                <td>Administração de Banco de Dados</td>
+            </tr>
+            <tr>
+                <td>Fundamentos de Banco de Dados</td>
+                <td>Engenharia de Software</td>
+                <td>Data Analytics</td>
+                <td>Big Data</td>
+            </tr>
+            <tr>
+                <td>Introdução a Internet das Coisas</td>
+                <td>Gestão de Projetos</td>
+                <td>Developing Database</td>
+                <td>Computação Cognitiva</td>
+            </tr>
+            <tr>
+                <td>Linguagem de Programação I</td>
+                <td>Língua Brasileira de Sinais - Libras(Optativa)</td>
+                <td>Estrutura de Dados</td>
+                <td>Qualidade e Governança de Dados</td>
+            </tr>
+            <tr>
+                <td>Lógica de Programação</td>
+                <td>Desenvolvimento de Sistemas</td>
+                <td>Oficina de Projeto de Empresa 1 - OPE1</td>
+                <td>Oficina de Projeto de Empresa 2 - OPE2</td>
+            </tr>
+            <tr>
+                <td>Matemática Aplicada</td>
+                <td>Linguagem SQL</td>
+                <td>--</td>
+                <td>Segurança de Banco de Dados</td>
+            </tr>
+            <tr>
+                <td>--</td>
+                <td>Socidade e Sustentabilidade(Optativa)</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>--</td>
+                <td>Análise Exploratório de Dados</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+        </table>
+    </section>
 
-			<p><strong>3º Semestre</strong><br/>
-			Business Intelligence<br/>
-			Data Analytics<br/>
-			Developing Database<br/>
-			Estrutura de Dados<br/>
-			Legislação e Ética<br/>
-			Oficina de Projeto de Empresa 1 - OPE1</p>
+    <section class="processoSeletivo">
+        <h2>Processo Seletivo</h2>
+        <button>Inscreva-se</button>
+    </section>
+    
+    <!-- PADRÃO -->
 
-			<p><strong>4º Semestre</strong><br/>
-			Administração de Banco de Dados<br/>
-			Big Data<br/>
-			Computação Cognitiva<br/>
-			Qualidade e Governança de Dados<br/>
-			Oficina de Projeto de Empresa 2 - OPE2<br/>
-			Segurança de Banco de Dados</p>
-		</div>
-		<!-- Final grade -->
+    <footer>
+        <section class="rodape">
+            <div class="redeSocial">
+                <ul>
+                    <li><a href="#"><img src="_imagens/twitterIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/facebookIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/googlePlusIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/youtubeIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/linkdlnIcon.jpg"></a></li>
+                </ul>
+            </div>
+            <div class="direitosAutorais">
+                <p>© 2017 Faculdade Perseus. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
 
-		<!-- Processo seletivo -->
-		<div id="seletivo">
-			<h2>Processo Seletivo</h2>
-			<p>Inscreva-se</p>
-		</div>
-		<!-- Final processo seletivo -->
-	</section>
+    <!-- FIM PADRÃO -->
 
-	<!-- Rodape padrão -->
-	<footer id="rodape">
-		<ul id="menu rede social">
-			<li><a href="#">Twitter</a></li>
-			<li><a href="#">Facebook</a></li>
-			<li><a href="#">Google+</a></li>
-			<li><a href="#">Youtube</a></li>
-			<li><a href="#">LinkedIn</a></li>
-		</ul>
-		<p>© 2017 Faculdade Perseus. All rights reserved</p>
-	</footer>
-	<!-- Final rodape -->
 </body>
 </html>
