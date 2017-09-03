@@ -1,139 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta name="Victor Codonho" content="1700715">
-	<meta charset="utf-8">
-	<title>Redes de Computadores | Faculdade Perseus</title>
+    <meta charset="utf-8"/>
+    <title>Redes de Computadores | Faculdade Perseus</title>
+    <link rel="stylesheet" type="text/css" href="_css/detalheCurso.css" />
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
 </head>
 <body>
-	<!-- Header padrão -->
-	<header>
-		<div id="topo">
-			<div id="logo">
-				<h1>Faculdade Perseus</h1>
-			</div>
-			<div id="pesquisa">
-				<p>Pesquisar...</p>
-			</div>
-			<nav id="menu">
-				<ul id="menu principal">
-					<li><a href="index.html">Home Page</a></li>
-					<li><a href="listaCursos.html">Lista de Cursos</a></li>
-					<li><a href="disciplinas.html">Disciplinas</a></li>
-					<li><a href="noticias.html">Notícias</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<!-- Final header padrão -->
 
-	<section id="conteudo">
-		<!-- Conteudo -->
-		<div id="conteudo1">
-			<h2>Graduação em Redes de Computadores</h2>
-			<img src="http://i.imgur.com/sk8ZKBL.jpg" alt="Redes de Computadores">
-		</div>
-		<!-- Final conteudo -->
-		
-		<!-- Sobre o curso -->
-		<div id="sobre curso">
-			<h3>Sobre o Curso</h3>
+    <!-- PADRÃO -->
+    <header>
+        <div class="logo">
+            <h1>Faculdade Perseus</h1>
+        </div>
+        <div class="pesquisa">
+            <input type="text" placeholder="Pesquisar..."/>
+            <button>Pesquisar</button>
+        </div>
+    </header>
+
+    <section class="menuPrincipal">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="listaCursos.html">Cursos</a></li>
+                <li><a href="disciplinas.html">Disciplinas</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- FIM PADRÃO -->
+
+    <section class="conteudoInicial">
+        <h1>Graduação em Redes de Computadores</h1>
+        <img src="_imagens/detalheRedes.jpg" alt="Graduação em Redes">
+    </section>
+
+    <section class="sobreInformacoes">
+        <div class="sobreConteudo">
+            <h2>Sobre</h2>
             <p>Com o curso de Redes de Computadores você estará preparado para<br/>
             analisar, projetar, instalar e administrar soluções para sistemas<br/>
             eficientes e seguros em projetos de redes locais e de longa<br/>
-			distância.</p>
-			
+            distância.</p>
+        
             <p>Você terá uma visão abrangente da área, aprendendo os conceitos em<br/>
             laboratório, desenvolvendo as habilidades de diagnóstico,<br/>
             implementação e administração de infraestrutura e serviços de redes.<br/>
             No curso, você ainda se prepara para o mercado com noções de gestão,<br/>
-			trabalho em equipe e visão empreendedora.</p>
+            trabalho em equipe e visão empreendedora.</p>
+        
+            <div class="periodo">
+                <img src="_imagens/relogioIcon.png" alt="Periodo icon">
+                <p>Periodo:<br/>
+                <strong>Noturno</strong></p>
+            </div>
+            <div class="duracao">
+                <img src="_imagens/calendarioIcon.png" alt="Duração icon">
+                <p>Duração:<br/>
+                <strong>4 Semestres</strong></p>
+            </div>
+        </div>
 
-			<p><strong>Periodo:</strong><br/>
-			Matutino / Noturno</p>
-			<p><strong>Duração:</strong><br/>
-			4 Semestres</p>
-		</div>
-		<!-- Final sobre o curso -->
+        <div class="maisInformacoes">
+            <h2>Mais Informações</h2>
+            <form>
+                <p><strong>Nome*</strong></p>
+                <input type="text" name="Nome" placeholder="Digite seu nome..." />
+                <p><strong>E-mail*</strong></p>
+                <input type="email" name="E-mail" placeholder="Digite seu e-mail..." />
+                <p><strong>Telefone*</strong></p>
+                <input type="tel" name="Telefone" placeholder="(xx) xxxx-xxxx" /><br/>
+             <button>Enviar</button>
+            </form>
+        </div>
+    </section>
 
-		<!-- Mais informações -->
-		<div id="mais informacoes">
-			<h2>Mais Informações</h2>
-			<form>
-				<strong>Nome:*</strong><br/>
-				<input type="text" name="nome"><br/>
-				<strong>E-mail:*</strong><br/>
-				<input type="email" name="email"><br/>
-				<strong>Telefone:*</strong><br/>
-				<input type="tel" name="telefone"><br/>
-				<input type="submit" name="enviar"><br/>
-			</form>
-		</div>
-		<!-- Final mais informações -->
+    <section class="grade">
+        <h2>Grade</h2>
+        <table>
+            <tr>
+                <th>1º Semestre</th>
+                <th>2º Semestre</th>
+                <th>3º Semestre</th>
+                <th>4º Semestre</th>
+            </tr>
+            <tr>
+                <td>Adiministração de Redes e Sistemas</td>
+                <td>Ambiente de Desenvolvimento e Operação</td>
+                <td>Comunicação de Dados</td>
+                <td>Auditoria e Controle em TI</td>
+            </tr>
+            <tr>
+                <td>Arquitetura de Redes de Computadores</td>
+                <td>Adiministração de Redes e Sistemas Operacionais Livres</td>
+                <td>diagnóstico e Gerenciamento de Redes</td>
+                <td>Computação em Nuvem</td>
+            </tr>
+            <tr>
+                <td>Introdução a Internet das Coisas</td>
+                <td>Gestão de Projetos</td>
+                <td>Legislação e Ética</td>
+                <td>Comunicações Móveis</td>
+            </tr>
+            <tr>
+                <td>Cabeamento Estruturado</td>
+                <td>Gestão de TI</td>
+                <td>Língua Brasileira de Sinais - Libras (Optativa)</td>
+                <td>Redes IPV6</td>
+            </tr>
+            <tr>
+                <td>Comunicação e Expressão</td>
+                <td>Oficina de Projeto de Empresa 1 - OPE1</td>
+                <td>Redes Convergentes</td>
+                <td>Oficina de Projeto de Empresa 3 - OPE3</td>
+            </tr>
+            <tr>
+                <td>Fundamentos de Sistemas Operacionais</td>
+                <td>Redes de Longa Distância</td>
+                <td>Oficina de Projeto de Empresa 2 - OPE2</td>
+                <td> Serviços de Redes de Computadores</td>
+            </tr>
+            <tr>
+                <td>Programação para Redes</td>
+                <td>Routing</td>
+                <td>Segurança em Sistemas</td>
+                <td>Tópicos Especiais em Redes de Computadores</td>
+            </tr>
+            <tr>
+                <td>--</td>
+                <td>Segurança em Redes e infraestrutura</td>
+                <td>Switching</td>
+                <td>--</td>
+            </tr>
+        </table>
+    </section>
 
-		<!-- Grade -->
-		<div id="grande">
-			<h3>Grade</h3>
-			<p><strong>1º Semestre</strong><br/>
-			Adiministração de Redes e Sistemas<br/>
-			Arquitetura de Redes de Computadores<br/>
-			Introdução a Internet das Coisas<br/>
-			Cabeamento Estruturado<br/>
-			Comunicação e Expressão<br/>
-            Fundamentos de Sistemas Operacionais<br/>
-            Programação para Redes</p>
+    <section class="processoSeletivo">
+        <h2>Processo Seletivo</h2>
+        <button>Inscreva-se</button>
+    </section>
+    
+    <!-- PADRÃO -->
 
-			<p><strong>2º Semestre</strong><br/>
-			Ambiente de Desenvolvimento e Operação<br/>
-			Adiministração de Redes e Sistemas Operacionais Livres<br/>
-			Gestão de Projetos<br/>
-			Gestão de TI<br/>
-			Oficina de Projeto de Empresa 1 - OPE1<br/>
-			Redes de Longa Distância<br/>
-			Routing<br/>
-			Segurança em Redes e infraestrutura</p>
+    <footer>
+        <section class="rodape">
+            <div class="redeSocial">
+                <ul>
+                    <li><a href="#"><img src="_imagens/twitterIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/facebookIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/googlePlusIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/youtubeIcon.jpg"></a></li>
+                    <li><a href="#"><img src="_imagens/linkdlnIcon.jpg"></a></li>
+                </ul>
+            </div>
+            <div class="direitosAutorais">
+                <p>© 2017 Faculdade Perseus. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
 
-			<p><strong>3º Semestre</strong><br/>
-			Comunicação de Dados<br/>
-			diagnóstico e Gerenciamento de Redes<br/>
-			Legislação e Ética<br/>
-			Língua Brasileira de Sinais - Libras (Optativa)<br/>
-			Redes Convergentes<br/>
-            Oficina de Projeto de Empresa 2 - OPE2<br/>
-            Segurança em Sistemas<br/>
-            Socidade e Sustentabilidade (Optativa)<br/>
-            Switching</p>
-
-			<p><strong>4º Semestre</strong><br/>
-			Auditoria e Controle em TI<br/>
-			Computação em Nuvem<br/>
-			Comunicações Móveis<br/>
-			Redes IPV6<br/>
-			Oficina de Projeto de Empresa 3 - OPE3<br/>
-            Serviços de Redes de Computadores<br/>
-            Tópicos Especiais em Redes de Computadores</p>
-		</div>
-		<!-- Final grade -->
-
-		<!-- Processo seletivo -->
-		<div id="seletivo">
-			<h2>Processo Seletivo</h2>
-			<p>Inscreva-se</p>
-		</div>
-		<!-- Final processo seletivo -->
-	</section>
-	<!-- Rodape padrão -->
-	<footer id="rodape">
-		<ul id="menu rede social">
-			<li><a href="#">Twitter</a></li>
-			<li><a href="#">Facebook</a></li>
-			<li><a href="#">Google+</a></li>
-			<li><a href="#">Youtube</a></li>
-			<li><a href="#">LinkedIn</a></li>
-		</ul>
-		<p>© 2017 Faculdade Perseus. All rights reserved</p>
-	</footer>
-	<!-- Final rodape padrão -->
+    <!-- FIM PADRÃO -->
 
 </body>
 </html>
