@@ -1,14 +1,13 @@
 
 .h1Disciplina {
-color: Orange;
-
+color: orange;
 }
 
-a: houver{
+a.menuDiscAds: houver{
 color:orange;
 }
 
-a:visited{
+a.menuDiscAds:visited{
 color:purple;
 }
 
