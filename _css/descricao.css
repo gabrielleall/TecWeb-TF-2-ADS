@@ -1,0 +1,11 @@
+.disConteudo h2, h3 {
+font-family: sans-serif;
+color: orange;
+text-align: center;
+}
+
+.disConteudo p{
+text-align: justify;
+font-family: sans-serif;
+margin:5%;
+}
