@@ -1,0 +1,109 @@
+body { 
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header {
+    width: 84em;
+    display: inline-flex;
+    
+}
+.logo{
+    width: 20%;
+    height: auto; 
+    margin-left: 10%;   
+}
+#menu {
+    background-color: #161616;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1em;
+    float: left;
+    width: 80%;
+    position: relative;
+    padding: 1.2em;
+    padding-left: 0em;
+}
+#menu a { 
+    color: #fff; 
+    text-decoration-line: none;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 1px solid black;
+    padding: 1.2em;
+}
+#slide {
+    width: 84.3em;
+    height: 25em;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat; 
+}
+section {
+    margin-top: 3em;
+    position: absolute;
+}
+.circle {
+    margin: 0 auto;
+    width: 8em;
+    height: 8em;
+    background-color: #0D45A0;
+    border-radius: 90px;
+    color: #fff;
+    text-align: center;
+}
+.fa {
+    margin-top: 0.5em;
+}
+.box { 
+    width: 17em;
+    margin-left: 3em;
+    margin-right: auto;
+    height: 100em;
+    float: left;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    position: relative;
+    text-align: justify;
+    color: #808080;
+}
+.box h2 {
+    font-size: 1em;
+    color: #696969;
+    text-align: center;
+
+}
+.readmore { 
+    text-decoration-line: none;;
+    color: #0D45A0;
+    padding: 0.5em;
+    border: 1px solid #0D45A0;
+    margin-left: 6em;
+}
+.readmore:hover {
+    background-color: #0D45A0;
+    text-decoration-line: none;;
+    color: #ffffff;
+    padding: 0.5em;
+    border: 1px solid #0D45A0;
+    margin-left: 6em;
+}
+#rodape{
+    height: 20em;
+    color: #fff; 
+    background-color: #161616;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1em;
+    margin-top: 40em;
+    position: relative;
+    text-decoration-line: none;
+    text-decoration: none; 
+    text-align: center;
+}
+#rodape a { 
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+
