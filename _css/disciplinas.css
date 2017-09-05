@@ -1,14 +1,14 @@
 .disciplinas h1 {
 font-family: sans-serif;
-color: orange;
+color: #318df5;
 text-align: center;
 }
 
-.disciplinas ul li a: hover{
-color:orange;
+.disciplinas ul li a:hover{
+color:#318df5;
 
 }
 
 .disciplinas ul li a:visited{
-color:purple;
+color:#3b3b3b;
 }
