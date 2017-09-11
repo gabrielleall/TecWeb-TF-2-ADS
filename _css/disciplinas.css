@@ -12,3 +12,13 @@ color:#318df5;
 .disciplinas ul li a:visited{
 color:#3b3b3b;
 }
+
+.menuDiscAds a img { 
+    	display:flex;
+	flex-direction:row;
+	justify-content:space-between;   
+	height: 10em;
+	width: 15em;
+	
+}
+
