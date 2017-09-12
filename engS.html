@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="_css/descricao.css"/>
 <link rel="stylesheet" type="text/css" href="_css/style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Gabriela Conde" content="1700654"/>
 
 <meta charset="utf-8">
@@ -10,60 +11,68 @@
 </head>
 <body>
 			<!-- PADRÃO -->
-    <header>
-        <div class="logo">
-            <h1>Faculdade Perseus</h1>
-        </div>
-        <div class="pesquisa">
-            <input type="text" placeholder="Pesquisar..."/>
-            <button>Pesquisar</button>
-        </div>
-    </header>
-	<section class="menuPrincipal">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="listaCursos.html">Cursos</a></li>
-                <li><a href="disciplinas.html">Disciplinas</a></li>
-                <li><a href="noticias.html">Notícias</a></li>
-            </ul>
-        </nav>
-    </section>
+	<header>
+			<div class="logo">
+			    <h1>Faculdade Perseus</h1>
+			</div>
+			<div class="pesquisa">
+			    <input type="text" placeholder="Pesquisar..."/>
+			    <button>Pesquisar</button>
+			</div>
+	</header>
+	
+		    <section class="menuPrincipal">
+			<nav>
+			    <ul>
+				<li><a href="index.html">Home Page</a></li>
+				<li><a href="listaCursos.html">Cursos</a></li>
+				<li><a href="disciplinas.html">Disciplinas</a></li>
+				<li><a href="noticias.html">Notícias</a></li>
+			    </ul>
+			</nav>
+		    </section>
+
 
     <!-- FIM PADRÃO -->
 
 	<section class="disConteudo">
-		<article id="descricaoDisc">
+		<article class="descricaoDisc">
 			<h2>Engenharia de Software</h2>
+			<img src="_imagens/engS.png" alt="engSoftware">
 			
 			<p>Entender todo o processo de criação e acompanhamento de softwares, utilizando outras areas
 			do conhecimento para atender de forma eficiente as necessidades do cliente</p>
 		
 			<p>Utilizar metodologias para levantar requisitos, fazer analises estruturadas, trabalhar com UML e 
 			garantir atualizações do software.</p>
-
-<h3>Critério de Aprovação:</h3>
+		</article>
+		<article class="aprovacao">
+			<h3>Critério de Aprovação</h3>
 			
-<p>MB1 (nota do 1° bimestre) = MAC1<br>
-MB2 (nota do 2° bimestre) = 0,6 * SEM + 0,4 * MAC2<br>
-MÉDIA = ( MB1 + MB2 ) / 2</p>
+			<p>MB1 (nota do 1° bimestre) = MAC1<br>
+			   MB2 (nota do 2° bimestre) = 0,6 * SEM + 0,4 * MAC2<br>
+			   MÉDIA = ( MB1 + MB2 ) / 2
+			</p>
 
-<p>SE (MÉDIA >= 7,0 e Frequência >= 75%) ENTÃO<br>
-MÉDIA FINAL = MÉDIA<br>
-APROVADO<br>
-SENÃO<br>
- SE (MÉDIA >= 3,0 e Frequência >= 75%) ENTÃO<br>
- MÉDIA FINAL = ( ( MÉDIA + EXAME ) / 2 )<br>
- SE (MÉDIA FINAL >= 5,0) ENTÃO<br>
- APROVADO<br>
- SENÃO REPROVADO<br>
- SENÃO REPROVADO</p>
-<p><strong>Legenda:</strong><br>
-MAC1: média das Avaliações Continuadas no 1º bimestre.<br>
-SEM: nota da Prova Semestral<br>
-MAC2: média das Avaliações Continuadas no 2º bimestre.</p>
+			<p>SE (MÉDIA >= 7,0 e Frequência >= 75%) ENTÃO<br>
+				MÉDIA FINAL = MÉDIA<br>
+				APROVADO<br>
+				SENÃO<br>
+ 				SE (MÉDIA >= 3,0 e Frequência >= 75%) ENTÃO<br>
+ 				MÉDIA FINAL = ( ( MÉDIA + EXAME ) / 2 )<br>
+ 				SE (MÉDIA FINAL >= 5,0) ENTÃO<br>
+ 				APROVADO<br>
+ 				SENÃO REPROVADO<br>
+ 				SENÃO REPROVADO
+			</p>
+			<p><strong>Legenda:</strong><br>
+				MAC1: média das Avaliações Continuadas no 1º bimestre.<br>
+				SEM: nota da Prova Semestral<br>
+				MAC2: média das Avaliações Continuadas no 2º bimestre.</p>
+		</article>
+		<article class="bibliografia">
 
-			<h3>Bibliografia:</h3>
+			<h3>Bibliografia</h3>
 			<p>Engenharia de Software: uma abordagem profissional 7ed. PRESSMAN, R.S. Bookman, 2011</p>
 			
 		</article>
@@ -74,21 +83,23 @@ MAC2: média das Avaliações Continuadas no 2º bimestre.</p>
 	   <!-- PADRÃO -->
 
     <footer>
-        <section class="rodape">
-            <div class="redeSocial">
-                <ul>
-                    <li><a href="#"><img src="_imagens/twitterIcon.jpg"></a></li>
-                    <li><a href="#"><img src="_imagens/facebookIcon.jpg"></a></li>
-                    <li><a href="#"><img src="_imagens/googlePlusIcon.jpg"></a></li>
-                    <li><a href="#"><img src="_imagens/youtubeIcon.jpg"></a></li>
-                    <li><a href="#"><img src="_imagens/linkdlnIcon.jpg"></a></li>
-                </ul>
-            </div>
-            <div class="direitosAutorais">
-                <p>© 2017 Faculdade Perseus. All rights reserved</p>
-            </div>
-        </section>
-    </footer>
+			<section class="rodape">
+			    <div class="redeSocial">
+				<ul>
+				    <li><a href="#"><img src="_imagens/twitterIcon.jpg"></a></li>
+				    <li><a href="#"><img src="_imagens/facebookIcon.jpg"></a></li>
+				    <li><a href="#"><img src="_imagens/googlePlusIcon.jpg"></a></li>
+				    <li><a href="#"><img src="_imagens/youtubeIcon.jpg"></a></li>
+				    <li><a href="#"><img src="_imagens/linkdlnIcon.jpg"></a></li>
+				</ul>
+			    </div>
+			    <div class="direitosAutorais">
+				<p>© 2017 Faculdade Perseus. All rights reserved</p>
+			    </div>
+			</section>
+		    </footer>
+
+
 
     <!-- FIM PADRÃO -->
 
