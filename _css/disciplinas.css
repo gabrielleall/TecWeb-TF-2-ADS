@@ -1,14 +1,50 @@
 .disciplinas h1 {
 font-family: sans-serif;
-color: #318df5;
+color: #24c7b1;
 text-align: center;
 }
 
-.disciplinas ul li a:hover{
-color:#318df5;
+.disciplinas ul a:hover{
+color:#24c7b1;
 
 }
 
-.disciplinas ul li a:visited{
+.disciplinas ul a:visited{
 color:#3b3b3b;
+}
+
+
+.menuDiscAds img{
+	display:flex;
+	height: 30%;
+	width: 45%;
+	margin-left: auto;
+    	margin-right: auto;
+	justify-content:center;
+	margin-bottom: 5px
+}
+
+.menuDiscAds{ 
+    	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	flex-direction:column;   
+		
+}
+
+.menuDiscAds a {
+	
+	padding:2em
+}
+
+
+.disciplinas{
+	padding:4em;
+	
+}
+
+.linkDisc{
+
+	text-align:center;
+	padding:2em;
 }
