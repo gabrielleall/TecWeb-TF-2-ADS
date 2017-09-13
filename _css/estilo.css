@@ -32,7 +32,7 @@ body{
 }
 .menu a{
     color: #ffffff;
-    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 /*Rodapé*/
@@ -42,7 +42,7 @@ body{
     justify-content: center;
     margin: 0px;
     background-color: #222225;
-    height: 100px;
+    height: 60px;
     align-items: center;
     color: white;
     text-align: center;
@@ -50,23 +50,23 @@ body{
 
 /* Fonte */
 
-p{
+p, li{
     font-family: 'Questrial', sans-serif;
 } 
 
 a{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1em;
     text-decoration: none;
     
     
 }
 
 a:hover{
-    color: #24c7b1;
+    color: #1F65E8;
 }
 
-h2{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Arimo', sans-serif;
     font-size: 30px;
     text-decoration: none;

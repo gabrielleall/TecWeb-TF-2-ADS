@@ -7,6 +7,18 @@
 	background-size: cover;
 }
 
+#ads {
+	background-image: url(http://i.imgur.com/BAsflnk.jpg);
+}
+
+#bd {
+	background-image: url(http://meorrutgers.org/wp-content/uploads/2014/08/rsz_technology1.jpg);
+}
+
+#redeCom {
+	background-image: url(https://livewallpaper.info/wp-content/uploads/2016/07/internet-wallpaper2.jpg);
+}
+
 .titulo {
 	display: grid;
 	align-items: center;
