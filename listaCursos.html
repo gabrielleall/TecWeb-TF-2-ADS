@@ -2,67 +2,40 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Lista De Cursos | Faculdade Perseus</title>
-		<link rel="stylesheet" type="text/css" href="_css/style.css">
+		<title>Lista De Cursos</title>
+		<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="_css/cursos.css">
 	</head>
 	<body>
-	    <header>
-		<div class="logo">
-		    <h1>Faculdade Perseus</h1>
-		</div>
-		<div class="pesquisa">
-		    <input type="text" placeholder="Pesquisar..."/>
-		    <button>Pesquisar</button>
-		</div>
-	    </header>
-
-	    <section class="menuPrincipal">
-		<nav>
-		    <ul>
-			<li><a href="index.html">Home Page</a></li>
-			<li><a href="listaCursos.html">Cursos</a></li>
-			<li><a href="disciplinas.html">Disciplinas</a></li>
-			<li><a href="noticias.html">Notícias</a></li>
-		    </ul>
-		</nav>
-	    </section>
-		<section>
-			<ul id="listCursos">
-				<li>
-					<a href="ads.html">
-						<img src="_imagens/ads.png" alt="ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"/><br/>
-						GRADUAÇÃO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
-					</a>
-				</li>
-				<li>
-					<a href="bd.html">
-						<img src="_imagens/bd.png" alt="BANCO DE DADOS"/><br/>
-						GRADUAÇÃO EM BANCO DE DADOS
-					</a>
-				</li>
-				<li>
-					<a href="redeCom.html">
-						<img src="_imagens/rede.png" alt="REDES DE COMPUTADORES"/><br/>
-						GRADUAÇÃO EM REDES DE COMPUTADORES
-					</a>
-				</li>
-			</ul>
+		<header class="header">
+			<div class="logo">
+				<h1>Perseus</h1>
+			</div>
+			<nav class="menu">
+				<a href="index.html">HOME</a>
+				<a href="listaCursos.html">CURSOS</a>
+				<a href="disciplinas.html">DISCIPLINAS</a>
+				<a href="noticias.html">NOTÍCIAS</a>
+			</nav>
+		</header>
+		<section class="conteudo">
+			<div class="curso">
+				<div class="imagem">
+					<img src="_imagens/ads.jpg" alt="ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"/>
+					<figcaption>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</figcaption>
+				</div>
+				<div class="imagem">
+					<img src="_imagens/bd.jpg" alt="BANCO DE DADOS"/>
+					<figcaption>BANCO DE DADOS</figcaption>
+				</div>
+				<div class="imagem">
+					<img src="_imagens/rede.jpg" alt="REDES DE COMPUTADORES"/>
+					<figcaption>REDES DE COMPUTADORES</figcaption>
+				</div>
+			</div>
 		</section>
-	    <footer>
-		<section class="rodape">
-		    <div class="redeSocial">
-			<ul>
-			    <li><a href="#"><img src="_imagens/twitterIcon.jpg"></a></li>
-			    <li><a href="#"><img src="_imagens/facebookIcon.jpg"></a></li>
-			    <li><a href="#"><img src="_imagens/googlePlusIcon.jpg"></a></li>
-			    <li><a href="#"><img src="_imagens/youtubeIcon.jpg"></a></li>
-			    <li><a href="#"><img src="_imagens/linkdlnIcon.jpg"></a></li>
-			</ul>
-		    </div>
-		    <div class="direitosAutorais">
+		<footer class="rodape">
 			<p>© 2017 Faculdade Perseus. All rights reserved</p>
-		    </div>
-		</section>
-	    </footer>
+		</footer>
 	</body>
 </html>
