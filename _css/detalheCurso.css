@@ -1,139 +1,133 @@
-/* nome: Victor Codonho RA: 1700715 */
+/* CONTEUDO PRINCIPAL */
 
-
-/*
-CONTEUDO INICIAL
-*/
-
-.conteudoInicial {
-	margin: 0 auto;
-	width: 1170px;
-	height: 500px;
-	padding-top: 10px;
+.conteudoPrincipal {
+	display: grid;
+	grid-template-columns: 100%;
+	height: 450px;
+	background-size: cover;
 }
 
-.conteudoInicial img {
-	width: 100%;
-	padding-top: 10px;
+.titulo {
+	display: grid;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
 }
 
-/*
-SOBRE E MAIS INFORMAÇOES
-*/
+/* CONTAINER DO CONTEUDO */
+
+.container {
+	display: grid;
+	grid-template-columns: 100%;
+	margin: 0 5%;
+}
+
+/* SOBRE E MAIS INFORMAÇOES */
 
 .sobreInformacoes {
-	margin: 0 auto;
-	width: 1170px;
-	height: 400px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 20px;
 }
 
-.sobreConteudo {
-	width: 585px;
-	float: left;
+.periodoDuracao {
+	display: grid;
+	grid-template-columns: 15% 20% 15% 20%;
+	align-items: center;
+	width: 500px;
+	font-size: 1em;
 }
 
-.periodo {
-	float: left;
-	width: 150px;
-}
-
-.periodo img {
-	float: left;
-}
-
-.periodo p {
-	float: right;
-}
-
-.duracao {
-	float: right;
-	margin-right: 200px;
-	width: 180px;
-}
-
-.duracao img {
-	float: left;
-}
-
-.duracao p {
-	float: right;
-}
-
-.maisInformacoes {
-	float: right;
-	margin-right: 50px;
+.maisInformacoes p {
+	margin-bottom: 5px;
+	font-size: 1em;
 }
 
 .maisInformacoes input {
-	border: 1px solid #e6e6e6;
-	margin-top: -20px;
-	width: 500px;
-	height: 34px;
+	width: 93%;
+	height: 23px;
+	border: 1px solid #ddd;
 }
 
 .maisInformacoes button {
-	background: #3b3b3b;
-	color: #fff;
+	width: 80px;
+	height: 40px;
 	margin-top: 20px;
 	border: none;
-	width: 90px;
-	height: 38px;
+	font-size: 1em;
+	background-color: #212121;
+	color: #fff;
 }
 
 .maisInformacoes button:hover {
-	background: #318df5;
+	background-color: #1F65E8;
 }
 
-/*
-GRADE
-*/
+/* GRADE */
 
 .grade {
-	margin: 0 auto;
-	margin-top: 50px;
-	width: 1170px;
-	height: 630px;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-column-gap: 5%;
 }
 
-.grade h2 {
+.gradeTitulo {
 	text-align: center;
 }
 
-.grade table {
-	width: 100%;
+.grade li {
+	list-style-type: none;
+	padding: 20px;
+	border: 1px solid #ddd;
 }
 
-.grade tr, th, td {
-	padding: 15px;
-	text-align: left;
-	border: 1px solid #A9A9A9;
+.grade1 {
+	background-color: #212121;
+	color: #fff
 }
 
-.grade th {
-	color: #fff;
-	background-color: #3b3b3b;
-}
-
-/*
-PROCESSO SELETIVO
-*/
+/* PROCESSO SELETIVO */
 
 .processoSeletivo {
-	margin: 0 auto;
-	margin-top: 50px;
-	width: 1170px;
-	height: 100px;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .processoSeletivo button {
-	background: #3b3b3b;
-	color: #fff;
+	width: 100px;
+	height: 40px;
 	border: none;
-	width: 90px;
-	height: 38px;
+	font-family: 'Questrial', sans-serif;
+	background-color: #212121;
+	color: #fff;
 }
 
 .processoSeletivo button:hover {
-	background-color: #318df5;
+	background-color: #1F65E8;
 }
+
+/* MOBILE */
+
+	@media screen and (max-width: 750px)
+	{
+		.titulo {
+			font-size: 1em;
+		}
+		.sobreInformacoes {
+			display: grid;
+			grid-template-columns: 100%;
+		}
+
+		.grade {
+			grid-template-columns: 100%;
+		}
+	}
+
+	@media screen and (max-width: 400px)
+	{
+		.periodoDuracao {
+			grid-template-columns: 50% 50%;
+			width: 200px;
+		}
+	}
