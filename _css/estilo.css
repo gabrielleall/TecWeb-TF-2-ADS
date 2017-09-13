@@ -1,0 +1,72 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Questrial|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Cabeçalho*/
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222225;
+}
+
+.logo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.menu a{
+    color: #ffffff;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+}
+
+/*Rodapé*/
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: #222225;
+    height: 100px;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Fonte */
+
+p{
+    font-family: 'Questrial', sans-serif;
+} 
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+
+a:hover{
+    color: #24c7b1;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
