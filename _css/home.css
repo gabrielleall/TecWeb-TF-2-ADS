@@ -1,0 +1,66 @@
+@charset "utf-8"; 
+
+
+.carrosel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/banner1.png);
+    height: 520px;
+}
+.cursos_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #222225;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.box {
+    width: 19em;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-size: 1em;
+    color: #C0C0C0;
+    text-align: center;
+    background-color: #222225;
+    padding: 0.5em;
+    border-right: 1px solid black;
+}
+
+.box h2 {
+    font-size: 1em;
+    color: #FF8C00;
+}
+
+.box a{ 
+    text-decoration-line: none;
+    color: #C0C0C0;
+    border: 1px solid #FF8C00;
+    padding: 0.5em;
+}
+
+.box a:hover {
+    text-decoration-line: none;
+    color: #222225;
+    border: 1px solid #FF8C00;
+    padding: 0.5em;
+    background-color: #FF8C00;
+    transition: .9s ease;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 8em;
+    height: 8em;
+    background-color: #FF8C00;
+    border-radius: 90px;
+    color: #fff;
+}
+
+.fa {
+    display: flex;
+    align-items: center;
+}
