@@ -1,0 +1,126 @@
+/* nome: Victor Codonho RA: 1700715 */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header {
+	width: 1170px;
+	height: 116px;
+	margin: 0 auto;
+}
+/*
+LOGO
+*/
+.logo {
+	float: left;
+	margin-top: 15px;
+}
+
+/*
+BARRA DE PESQUISA
+*/
+.pesquisa {
+	float: right;
+	width: 349px;
+	height: 39px;
+	margin-top: 35px;
+	font-size: 1em;
+}
+
+.pesquisa input {
+	float: left;
+	border: 1px solid #e6e6e6;
+	width: 256px;
+	height: 39px;
+}
+
+.pesquisa button {
+	float: right;
+	border: none;
+	background: #3b3b3b;
+	color: #fff;
+	width: 90px;
+	height: 43px;
+}
+
+.pesquisa button:hover {
+	background: #318df5;
+}
+
+/*
+MENU PRINCIPAL
+*/
+
+.menuPrincipal {
+	margin: 0 auto;
+	background: #3b3b3b;
+	font-family: sans-serif;
+	font-size: 1em;
+	width: 1170px;
+	height: 60px;
+}
+
+.menuPrincipal ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menuPrincipal ul li {
+	float: left;
+}
+
+.menuPrincipal ul li a {
+	display: block;
+	padding: 21px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+.menuPrincipal ul li a:hover {
+	background: #318df5;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+	background-color: #3b3b3b;
+	width: 100%;
+	height: 52px;
+	margin-top: 50px;
+}
+
+.rodape {
+	margin: 0 auto;
+	width: 1170px;
+	height: 52px;
+}
+
+.redeSocial {
+	float: left;
+}
+
+.redeSocial ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.redeSocial ul img {
+	width: 80%;
+}
+
+.redeSocial ul li {
+	float: left;
+}
+
+.direitosAutorais {
+	float: right;
+	color: #fff;
+}
