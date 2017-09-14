@@ -3,21 +3,14 @@
 .conteudo{
     display: flex;
     flex-direction: column;
-
-
 }
 
 .curso{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #fff;
-    opacity: 0.1;
 }
 
-.curso:hover{
-    opacity: 1;
-}
 
 .imagem{
     flex: 1;
