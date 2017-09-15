@@ -1,50 +1,56 @@
-.disciplinas h1 {
-font-family: sans-serif;
-color: #24c7b1;
-text-align: center;
+p {
+	color: #fff;
 }
 
-.disciplinas ul a:hover{
-color:#24c7b1;
-
-}
-
-.disciplinas ul a:visited{
-color:#3b3b3b;
-}
-
-
-.menuDiscAds img{
-	display:flex;
-	height: 30%;
-	width: 45%;
-	margin-left: auto;
-    	margin-right: auto;
-	justify-content:center;
-	margin-bottom: 5px
-}
-
-.menuDiscAds{ 
-    	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-evenly;
-	flex-direction:column;   
-		
-}
-
-.menuDiscAds a {
-	
-	padding:2em
-}
-
-
-.disciplinas{
-	padding:4em;
-	
-}
-
-.linkDisc{
-
+h1,h2,h3{
+	color:orange;
 	text-align:center;
-	padding:2em;
+	
+}
+
+.cp{
+	margin: 0 5%
+}
+
+img{
+	max-width:100%;
+	height:auto;	
+	
+}
+
+.disc{
+display:grid;
+grid-template-columns:40% 60%;
+margin-top: 50px;
+
+}
+
+.descricao{
+	margin:1em;
+	padding-left:1em;
+}
+
+.imagem{
+	margin:1em;
+	
+	width:100%;
+	display:flex;
+	align-items:center;
+}
+
+@media only screen and (max-width:750px){
+
+.disc{
+display:grid;
+grid-template-columns:100%;
+margin-top: 50px;
+
+}
+
+.imagem{
+	margin-right:1em;
+	display:flex;
+	justify-content:center;	
+	
+}
 }
