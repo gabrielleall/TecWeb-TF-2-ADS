@@ -2,59 +2,140 @@
 <html lang="pt-br">
 <head>
 <link rel="stylesheet" type="text/css" href="_css/disciplinas.css"/>
-<link rel="stylesheet" type="text/css" href="_css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="_css/estilo.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Gabriela Conde" content="1700654"/>
 <meta charset="utf-8">
 <title>Disciplinas | Faculdade Perseus</title>
 </head>
+
 <body>
     <!-- PADRÃO -->
-	<header class="header">
-		<div class="logo">
-			<img src ="_imagens/logo_perseus_orange.png" alt="Perseus University"/>
-		</div>
-		<nav class="menu">
-			<a href="index.html" class="overlay">HOME</a>
-			<a href="listaCursos.html" class="overlay">CURSOS</a>
-			<a href="disciplinas.html" class="overlay">DISCIPLINAS</a>
-			<a href="noticias.html" class="overlay" >NOTÍCIAS</a>
-		</nav>
+	
+    <header class="header">
+			<div class="logo">
+				<h1>Perseus</h1>
+			</div>
+			<nav class="menu">
+				<a href="index.html">HOME</a>
+				<a href="listaCursos.html">CURSOS</a>
+				<a href="disciplinas.html">DISCIPLINAS</a>
+				<a href="noticias.html">NOTÍCIAS</a>
+			</nav>
 	</header>
     <!-- FIM PADRÃO -->
-	<div class="disciplinas">
-		<h1 class="h1Disciplina">Analise e Desenvolvimento de Sistemas</h1>
-		<ul class="menuDiscAds">
-			<span class = "linkDisc"><a target="_blank" href="devops.html">DevOps</a>
 
-				</span><img alt="Disciplina devOps" src="_imagens/devops.png"</img>
-			
-		
-
-			<span class = "linkDisc"><a target="_blank" href="engS.html">Engenharia de Software</a></span>
-
-				<img alt="Disciplina eng.Software" src="_imagens/engS.png"</img>
-			
-		
-
-			<span class = "linkDisc"><a target="_blank" href="lingProg.html">Linguagem Programação II</a></span>
-
-				<img alt="Disciplina ling. Programaçao" src="_imagens/lingProg.jpg"</img>
-			
-		
-		
-			<span class = "linkDisc"><a target="_blank" href="sql.html">Linguagem SQL</a></span>
-				<img alt="Disciplina SQL" src="_imagens/sql.png"</img>
-			
-			<span class = "linkDisc"><a target="_blank" href="tecWeb.html">Tecnologia Web</a></span>
-				<img alt="Disciplina TecWeb" src="_imagens/tecWeb.png"</img>
-			
-		
-		</ul>
+<section class="cp">	
+<div class="container">
+	<h1>Analise e Desenvolvimento de Sistemas</h1>
+	<section class="disc"> 
+		<div class = "imagem">
+		<img alt="Disciplina devOps" src="_imagens/devops.png"</img>
+		</div>
+		<div class="descricao">
+			<h2>Ambiente de Desenvolvimento e Produção</h2>
+			<p>Disponibilizar ambiente colaborativo local e em nuvem para apoiar as atividades de análise,
+			desenvolvimento e execução de sistemas.
+			Utilizar os ambientes instalados para desenvolver estudos de casos</p>
+			<p>Configurar e empregar máquinas virtuais, local e em nuvem, para instalar ambientes de
+			codificação e Sistemas Gerenciadores de Banco de Dados.
+			Configurar e usar um ambiente de controle de mudanças.
+			Criar ambiente de integração contínua.
+			Domínio para disponibilizar e gerenciar artefatos de análise e modelagem de sistemas.</p>
+			<p>O termo DevOps passou a ser utilizado como uma forma de pensar orientada a
+			fazer uma entrega contínua do produto de software</p>
+			<h3>Bibliografia</h3>
+			<p>Kort, W. DevOps on the Microsoft Stack. APress, 2016.</p>
+		</div>
 	
-	</div>
+	</section>
 	
-	   <!-- PADRÃO -->
+		<section class="disc"> 
+		<div class = "imagem">
+		<img alt="Disciplina eng.Software" src="_imagens/engS.png"</img>
+		</div>
+		<div class="descricao">
+			<h2>Engenharia de Software</h2>
+			<p>Entender todo o processo de criação e acompanhamento de softwares, utilizando outras areas
+			do conhecimento para atender de forma eficiente as necessidades do cliente</p>		
+			<p>Utilizar metodologias para levantar requisitos, fazer analises estruturadas, trabalhar com UML e 
+			garantir atualizações do software.</p>
+			<h3>Bibliografia</h3>
+			<p>Engenharia de Software: uma abordagem profissional 7ed. PRESSMAN, R.S. Bookman, 2011</p>
+		</div>
+	
+	</section>
+	
+	
+	
+		<section class="disc"> 
+		<div class = "imagem">
+		<img alt="Disciplina ling. Programaçao" src="_imagens/lingProg.jpg"</img>
+		</div>
+		<div class="descricao">
+			<h2>Linguagem de Programação II</h2>
+			<p>Desenvolva uma lógica de raciocínio para organizar os elementos necessários no desenvolvimento de um 
+			programa orientado a objetos. Voce será capaz de modelar problemas utilizando estruturas de 
+			dados e aplicar os conceitos na linguagem de programação Python, contruindo uma estrutura de dados orietada a objetos</p>
+			<h3>Bibliografia</h3>
+			<p>BECK, K. TDD  Desenvolvimento Guiado por Testes. Porto Alegre: Bookman, 2010.<br>
+			DIERBACH, C. Introduction to Computer Science Using Python: A Computational Problem-Solving
+			1st Edition, New York: Wiley, 2012.<br>
+			GAMMA, ERICH. Design Patterns: Elements of Reusable Object-Oriented Software. 1 ed: AddisonWesley,
+			1994.
+		</div>
+	
+	</section>
+	
+	<section class="disc"> 
+		<div class = "imagem">
+		<img alt="Disciplina SQL" src="_imagens/sql.png"</img>
+		</div>
+		<div class="descricao">
+			<h2>Linguagem SQL</h2>
+			
+			<p>Após a modelagem do modelo conceitual e lógico é necessário o modelo fisico para a efetiva criação
+			do banco de dados. Conheça uma linguagem para definição e manpulação de dados em sistemas de Banco de Dados.
+			Domine os recursos da linguagem SQL, criando uma base sólida de consulta.</p>
+		
+			<p>Realize operações relacionais em um Banco de Dados Relacional e saiba representar problemas
+			utilizando modelo de dados.</p>
+			
+			<h3>Bibliografia</h3>
+			<p>Linguagem SQL  2ed. Wensley, R.S. C.Brown, 2012</p>
+			
+		</div>
+	
+	</section>
+	
+	<section class="disc"> 
+		<div class = "imagem">
+		<img alt="tecWeb" src="_imagens/tecWeb.png"</img>
+		</div>
+		<div class="descricao">
+			<h2>Tecnologia Web</h2>
+			
+			<p>Conheça e domine as principais etapas para a construção de um site para a Web.</p>
+			<p><strong>Tecnologias no cliente:</strong><br/>
+			HTML<br/>
+			CSS<br/>
+			JavaScript</p>
+			<p><strong>Tecnologias no Servidor:</strong><br/>
+			Python (Django Framework)<br>
+			Mapeamento ORM<br>Sessão e autenticação</p>
+			
+			<h3>Bibliografia</h3>
+			<p>W3Schools <a target="_blank" href="https://www.w3schools.com" >www.w3schools.com</a></p>
+			
+		</div>
+	
+	</section>
+	
+
+
+</div>
+</section>
+<!-- PADRÃO -->
 
   	    <footer class="rodape">
 			<p>© 2017 Faculdade Perseus. All rights reserved</p>
