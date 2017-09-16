@@ -1,3 +1,7 @@
+/*.imgNoticias{
+    background-image: url(http://www.impacta.edu.br/wp-content/uploads/2016/10/banner-topo-noticia-home.jpg);
+}
+*/
 .conteudoPrincipal {
 	display: grid;
 	grid-template-columns: 100%;
@@ -29,7 +33,7 @@
     margin-top: 50px;
 }
 figure img{
-	margin: 0.5em;	
+	margin: 1em;	
 	float: left;
 	border: 1px solid #FF8C00;
 	width: 50%;
@@ -38,3 +42,18 @@ p {
 	color: #fff;
 }
 
+@media screen and (max-width: 750px){
+	figure img{
+		width: 100%;
+	}
+	
+}
+@media screen and (max-width: 450px){
+	figure img{
+		margin: 0;
+		padding: 0;
+		width: 120%;
+		float: center;
+	}
+	
+}
