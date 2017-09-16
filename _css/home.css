@@ -1,5 +1,5 @@
 @charset "utf-8"; 
-
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 .carrosel{
     display: flex;
@@ -7,6 +7,18 @@
     align-items: center;
     background-image: url(img/banner1.png);
     height: 520px;
+}
+.eventos {
+    display: flex;
+    background-color: #222225;
+    color: #FF8C00;
+    font-size: 2em;
+    justify-content: center;
+    font-family: 'Questrial', sans-serif;   
+}
+.eventos span { 
+    border: 1px solid #FF8C00;
+    padding: 3px;
 }
 .cursos_box {
     display: flex;
@@ -19,7 +31,7 @@
 
 .box {
     width: 19em;
-    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 1em;
     color: #C0C0C0;
     text-align: center;
@@ -48,19 +60,5 @@
     background-color: #FF8C00;
     transition: .9s ease;
 }
-.circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 8em;
-    height: 8em;
-    background-color: #FF8C00;
-    border-radius: 90px;
-    color: #fff;
-}
 
-.fa {
-    display: flex;
-    align-items: center;
-}
+
