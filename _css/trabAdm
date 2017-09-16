@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: #fff; 
+    font-family: 'Questrial', sans-serif;
+}
+.titulo {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em; 
+    color: #fff;
+    background-image: url(img/fundo-banner.jpg);
+    height: 450px; 
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+.texto {
+    margin-top: 1px;
+    padding: 5em;
+    text-align: justify;
+    background-color: #222225;
+}
+.image {
+    display: flex;
+    float: left;
+    margin: 1em;
+}
+
+.conteudo h2 {
+    color: #FF8C00;
+    font-size: 1.4em;
+    text-align: center;
+}
