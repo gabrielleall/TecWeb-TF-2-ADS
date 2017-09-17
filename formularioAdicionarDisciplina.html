@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="Victor Codonho" content="1700715" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Adicionar Disciplina | Faculdade Perseus</title>
+	<link rel="stylesheet" type="text/css" href="_css/stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="_css/formularioAdicionarDisciplina.css" />
+</head>
+<body>
+
+	<!-- HEADER -->
+	<header class="header">
+		<div class="logo">
+			<img src ="_imagens/logo_perseus_orange.png" alt="Perseus University"/>
+		</div>
+		<nav class="menu">
+			<a href="index.html" class="overlay">HOME</a>
+			<a href="listaCursos.html" class="overlay">CURSOS</a>
+			<a href="disciplinas.html" class="overlay">DISCIPLINAS</a>
+			<a href="noticias.html" class="overlay" >NOTÍCIAS</a>
+		</nav>
+	</header>
+	<!-- HEADER -->
+
+	<section class="container">
+		<div class="titulo">
+			<h1>Adicionar Disciplina</h1>
+		</div>
+		<section class="formularioPai">
+			<div class="formularioFlho">
+				<form action="AdicionarDisciplina" method="POST">
+					<label for="professor">Professor Responsavel:</label><br/>
+					<input type="text" name="Professor" id="professor" class="entrada espaco" placeholder="Nome" /><br/>
+					<label for="horasMensais">Quantidade de horas mensais:</label><br/>
+					<input type="text" name="Horas mensais" id="horasMensais" class="entrada espaco" placeholder="xx Horas ou xx Minutos"><br/>
+					<label for="duracaoAula">Duração da Aula:</label><br/>
+					<input type="text" name="Duração da Aula" id="duracaoAula" class="entrada espaco" placeholder="xx Horas ou xx Minutos"><br/>
+					<label for="diaMinistrado">Dia ministrado da semana:</label><br/>
+					<input type="text" name="Dia ministrado" id="diaMinistrado" class="entrada espaco" placeholder="xx-feira"><br/>
+					<label for="ementa">Ementa:</label><br/>
+					<textarea id="ementa"></textarea><br/>
+					<button type="submit" value="Enviar">Enviar</button>
+					<button  type="reset" value="Limpar">Limpar</button>
+				</form>
+			</div>
+		</section>
+	</section>
+
+	<!-- FOOTER -->
+	<footer class="rodape">
+		<p>© 2017 Faculdade Perseus. All rights reserved</p>
+	</footer>
+	<!-- FOOTER -->
+
+</body>
+</html>
