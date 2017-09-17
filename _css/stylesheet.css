@@ -7,7 +7,7 @@ body{
     flex-direction: column;
 }
 
-p, li, a {
+p, li, a, label {
     font-family: 'Questrial', sans-serif;
 }
 
