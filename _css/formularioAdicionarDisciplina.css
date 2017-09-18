@@ -2,7 +2,7 @@ body {
 	background-color: #222225;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, legend {
 	color: #FF8C00;
 	font-size: 2em;
 }
