@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="Gabriela Conde" content="1700654" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Cadastrar novo Usuario | Faculdade Perseus</title>
+	<link rel="stylesheet" type="text/css" href="_css/stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="_css/formularioAdicionarDisciplina.css" />
+</head>
+<body>
+
+	<!-- HEADER -->
+	<header class="header">
+		<div class="logo">
+			<img src ="_imagens/logo_perseus_orange.png" alt="Perseus University"/>
+		</div>
+		<nav class="menu">
+			<a href="index.html" class="overlay">HOME</a>
+			<a href="listaCursos.html" class="overlay">CURSOS</a>
+			<a href="disciplinas.html" class="overlay">DISCIPLINAS</a>
+			<a href="noticias.html" class="overlay" >NOTÍCIAS</a>
+		</nav>
+	</header>
+	<!-- HEADER -->
+  
+  <section class="container">
+		<div class="titulo">
+			<h1>Novo Usuário</h1>
+		</div>
+		<section class="formularioPai">
+			<div class="formularioFlho">
+				<form action="cadastroUsuario.html" method="POST">
+				<fieldset>
+				<legend>Dados Cadastrais </legend>
+				
+					<label for="nomeNovoUser">Nome Completo: </label><br/>
+					<input type="text" name="nome" id="user" class="entrada espaco" required placeholder=" Nome completo" /><br/>
+
+					<label for="sexo">Sexo:</label><br/>
+					<label><input class ="radio" type="radio" name="sexo" checked value="Feminino">Feminino</label> 
+          <br/>
+					<label><input class ="radio" type="radio" name="sexo"  value="Masculino">Masculino</label><br/><br/>
+        
+					<label for="dtNascimento">Data de Nascimento:</label><br/>
+					<input type="date" name="dtNascimento" id="dtNascimento" class="entrada espaco" required><br/>
+
+					<label for="RA">RA:</label><br/>
+					<input type="number" name="RA" id="RA" class="entrada espaco" maxlength="7" required ><br/>
+
+					<label for="email">E-mail: </label><br/>
+					<input type="email" name="email" id="email" class="entrada espaco" required placeholder="email@perseus.com" /><br/>
+
+					
+					<label for="telefone">Telefone:</label><br/>
+					<input type="number" name="telefone" id="telefone" class="entrada espaco"  placeholder="(xx) XXXXX-XXXX " required ><br/>
+
+					<label for="Curso">Escolha o curso: </label><br/>
+					<select required>
+          
+        
+          	<option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+  					<option value="GTI">Gestão de TI</option>
+  					<option value="REDES">Redes de Computadores</option>
+  					<option value="BD">Banco de Dados</option>
+
+          </select><br/><br/>
+
+					<label for="Senha">Senha:</label><br/>
+					<input type="password" id="senha" class="entrada espaco" required><br/>
+					
+					<label for="SenhaC">Confirme a Senha:</label><br/>
+					<input type="password" id="senhaC" class="entrada espaco" required><br/>
+
+
+					
+				</fieldset>
+				<fieldset>
+				<legend>Endereço </legend>
+					<label for="endereco">Endereço: </label><br/>
+					<input type="text" name="endereco" id="endereco" class="entrada espaco" required/><br/>
+          
+					<label for="numero">Número: </label><br/>
+					<input type="number" name="numero" id="numero" class="entrada espaco" required/><br/>
+           
+          <label for="complemento">Complemento: </label><br/>
+          <input type="text" name="complemento" id="complemento" class="entrada espaco" /><br/>
+          
+          <label for="estado">Estado: </label><br/>
+          <input type="text" name="estado" id="estado" class="entrada espaco" required/><br/>
+          
+          <label for="cidade">Cidade: </label><br/>
+          <input type="text" name="cidade" id="cidade" class="entrada espaco" required/><br/>
+          
+          <label for="bairro">Bairro: </label><br/>
+          <input type="text" name="bairro" id="bairro" class="entrada espaco" required/><br/>
+          
+          <label for="cep">CEP: </label><br/>
+          <input type="number" name="cep" id="cep" class="entrada espaco" required/><br/>
+
+						
+				</fieldset>
+					<button type="submit" value="Enviar">Enviar</button>
+					<button  type="reset" value="Limpar">Limpar</button>
+				</form>
+			</div>
+		</section>
+	</section>
+
+	
+
+	<!-- FOOTER -->
+	<footer class="rodape">
+		<p>© 2017 Faculdade Perseus. All rights reserved</p>
+	</footer>
+	<!-- FOOTER -->
+
+</body>
+</html>
