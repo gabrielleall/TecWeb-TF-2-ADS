@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="Victor Codonho" content="1700715" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Adicionar Disciplina | Faculdade Perseus</title>
+	<link rel="stylesheet" type="text/css" href="_css/stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="_css/formularioAdicionarDisciplina.css" />
+    <style>
+        a{
+            font-size: 0.9em;
+        }
+
+        form{
+            margin-bottom: 220px;
+        }
+    </style>
+</head>
+<body>
+
+	<!-- HEADER -->
+	<header class="header">
+		<div class="logo">
+			<img src ="_imagens/logo_perseus_orange.png" alt="Perseus University"/>
+		</div>
+		<nav class="menu">
+			<a href="index.html" class="overlay">HOME</a>
+			<a href="listaCursos.html" class="overlay">CURSOS</a>
+			<a href="disciplinas.html" class="overlay">DISCIPLINAS</a>
+			<a href="noticias.html" class="overlay" >NOTÍCIAS</a>
+		</nav>
+	</header>
+	<!-- HEADER -->
+
+	<section class="container">
+		<div class="titulo">
+			<h1>Login</h1>
+		</div>
+		<section class="formularioPai">
+			<div class="formularioFlho">
+				<form action="AdicionarDisciplina" method="POST">
+					<label for="email">E-mail</label><br/>
+					<input type="text" name="email" id="email" class="entrada espaco" placeholder="E-mail" /><br/>
+                    <label for="senha">Senha</label><br/>
+					<input type="text" name="senha" id="senha" class="entrada espaco" placeholder="Senha" /><br/>
+                    <input type="checkbox" name="lembrar" id="lembrar" placeholder="lembrar" />
+                    <label for="lembrar">Lembrar de mim</label><br/>
+                    <a href="esqueciSenha.html">Esqueci minha senha</a><br/>
+					<button type="submit" value="Enviar">Enviar</button>
+					<button  type="reset" value="Limpar">Limpar</button>
+				</form>
+			</div>
+		</section>
+	</section>
+
+	<!-- FOOTER -->
+	<footer class="rodape">
+		<p>© 2017 Faculdade Perseus. All rights reserved</p>
+	</footer>
+	<!-- FOOTER -->
+
+</body>
+</html>
