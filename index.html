@@ -8,6 +8,28 @@
 		<script src="https://use.fontawesome.com/cb94a96db4.js"></script>
 	</head>
 	<body>
+		<!-- 
+			Correção EP2 HTML: 8,0
+			- (-0,5) Dois headers na mesma seção.
+			- (-0,5) Uso incorreto de headings.
+			- (-0,5) Uso incorreto de listas.
+			- (-0,5) alguams imagens estão sem alt e estão escritas errado.
+			- Cuidado com as pastas começando com _ (underscore) o Windows se embanana todo com esse caracter
+		-->
+		<!-- 
+			Correção EP3 CSS: 9,5
+			- (-0,5) Footer parece parte do conteúdo, uma hr ou linha já seria o suficiente
+		-->
+		<!-- 
+			Correção EP4 Layout: 9,5
+			- (-0,5) Esqueceram do viewport na home e na listagem de cursos
+		-->
+		<!-- 
+			Correção E52 Forms: 8,5
+			- (-0,5) Tipo de campo incorreto com o tipo do dado
+			- (-0,5) Campos sem name 
+			- (-0,5) Campos sem label ou eles não funcionam
+		-->
 	<header class="header">
 		<div class="logo">
 			<img src ="_imagens/logo_perseus_orange.png" alt="Perseus University"/>
@@ -19,13 +41,15 @@
 			<a href="noticias.html" class="overlay" >NOTÍCIAS</a>
 		</nav>
 	</header>
-		<header>
+		<header> <!-- Dois headers no body não faz sentido -->
 			<div class="carrosel">
 				
 			</div>
 		</header>
 		<aside>
 			<div class="eventos">
+				<!-- Não use H4 por causa do tamanho da fonte, mesmo com o fontawesome -->
+				<!-- Entendo que estão o fontawesome, mas tente usar o span no lugar do i -->
 				<h4><i class="fa fa-meetup" aria-hidden="true"></i> <span>Eventos</span></h4>
 			</div>
 		</aside>
