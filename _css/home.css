@@ -12,12 +12,12 @@
     display: flex;
     background-color: #222225;
     color: #FF8C00;
-    font-size: 2em;
     justify-content: center;
     font-family: 'Questrial', sans-serif;   
 }
 .eventos span { 
     border: 1px solid #FF8C00;
+    font-size: 1em;
     padding: 3px;
 }
 .cursos_box {
